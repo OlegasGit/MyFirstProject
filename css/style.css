@@ -10,9 +10,13 @@ body {
 	font: 300 15px/1 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, {
 	margin: 0;
 	font-weight: normal;
+}
+
+p {
+	margin: 0;
 }
 
 a {
@@ -39,6 +43,10 @@ button {
 	border: none;
 	cursor: pointer;
 }
+
+blockquote {
+	margin: 0;
+}
 /* ===== Reset end ===== */
 
 /* ===== Default classes start ===== */
@@ -50,8 +58,17 @@ button {
 	text-align: right;
 }
 
-.text-
+.text-justify {
+	text-align: justify;
+}
 
+.bg-black {
+	background-color: #111;
+}
+
+.bg-grey {
+	background-color: #f8f8f8;
+}
 /* ===== Default classes end ===== */
 
 /* ===== Default components start ===== */
@@ -77,9 +94,12 @@ button {
 .title {
 	font-family: 'Dosis', sans-serif;
 	text-transform: uppercase;
+	color: #111;
 }
 
-.title-title-white
+.title.title-white {
+	color: #fff;
+}
 
 .title.section-title {
 	font-size: 18px;
@@ -93,5 +113,23 @@ button {
 	letter-spacing: .3em;
 	margin-bottom: 20px;
 	font-weight: 300;
+}
+
+.default-text {
+	font-size: 15px;
+	line-height: 1.7333;
+	font-weight: 300;
+}
+
+blockquote, .blockquote {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+blockquote span, .blockquote span {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
 }
 /* ===== Default components end ===== 
