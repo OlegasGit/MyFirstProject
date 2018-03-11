@@ -132,4 +132,23 @@ blockquote span, .blockquote span {
 	text-transform: uppercase;
 	letter-spacing: .2em;
 }
+
+.btn {
+	display: inline-block;
+	padding: 12px 20px;
+	border-radius: 2px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.btn.btn-default {
+	background-color: #e5e5e5;
+	color: #777;
+}
+
+.btn.btn-black {
+	background-color: #323232;
+	color: #fff;
+}
 /* ===== Default components end ===== 
