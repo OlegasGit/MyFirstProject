@@ -137,9 +137,10 @@ blockquote span, .blockquote span {
 	display: inline-block;
 	padding: 12px 20px;
 	border-radius: 2px;
-	font-size: 12px;
+	/* font-size: 12px; */
 	text-transform: uppercase;
-	font-weight: 400;
+	/* font-weight: 400; */
+	font: 400 12px/1 'Open Sans', sans-serif;
 }
 
 .btn.btn-default {
@@ -147,8 +148,21 @@ blockquote span, .blockquote span {
 	color: #777;
 }
 
+.btn.btn-default:hover {
+	background-color: #d1d0d0;
+}
+
 .btn.btn-black {
 	background-color: #323232;
 	color: #fff;
+}
+
+.btn.btn-black:hover {
+	background-color: #000;
+}
+
+.btn.btn-xs {
+	padding: 7px 15px;
+	font-size: 11px;
 }
 /* ===== Default components end ===== 
