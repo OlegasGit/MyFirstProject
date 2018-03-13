@@ -77,7 +77,6 @@ blockquote {
 
 /* ===== Default components start ===== */
 .header {
-	overflow: hidden;
 	padding: 15px 0;
 	position: fixed;
 	top: 0;
@@ -89,7 +88,7 @@ blockquote {
 .header .logo {
 	float: left;
 	padding: 12px 0;
-	width: 118px;
+	max-width: 118px;
 }
 
 .header .logo img {
