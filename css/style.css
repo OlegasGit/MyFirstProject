@@ -77,7 +77,6 @@ blockquote {
 
 /* ===== Default components start ===== */
 .header {
-	overflow: hidden;
 	padding: 15px 0;
 	position: fixed;
 	top: 0;
@@ -104,7 +103,8 @@ blockquote {
 	float: right;
 	overflow: hidden;
 	padding: 18px 0;
-	font: 400 11px/1 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: 400;
 	opacity: .75;
 	letter-spacing: .3em;
 	text-indent: .3em;
@@ -241,7 +241,9 @@ blockquote span, .blockquote span {
 }
 
 .inner-content {
+	width: 100%;
 	color: #fff;
+	font-size: 19px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -257,7 +259,6 @@ blockquote span, .blockquote span {
 
 .inner-content span {
 	display: block;
-	font-size: 19px;
 	opacity: .68;
 } 
 /* ===== Custom style end ===== */
