@@ -10,7 +10,7 @@ body {
 	font: 300 15px/1 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	font-weight: normal;
 }
@@ -77,17 +77,15 @@ blockquote {
 
 /* ===== Default components start ===== */
 .header {
-	padding: 15px 0;
+	padding: 27px 0;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 99;
-	color: #fff;
 }
 
 .header .logo {
 	float: left;
-	padding: 12px 0;
 	max-width: 118px;
 }
 
@@ -101,17 +99,16 @@ blockquote {
 
 .header .header-nav {
 	float: right;
-	overflow: hidden;
-	padding: 18px 0;
+	padding: 5px 0;
 	font-size: 11px;
 	font-weight: 400;
-	opacity: .75;
 	letter-spacing: .3em;
 	text-indent: .3em;
 }
 
 .header .header-nav li {
 	float: left;
+	color: rgba(255, 255, 255, .75);
 }
 
 .header .header-nav li + li {
@@ -245,23 +242,23 @@ blockquote span, .blockquote span {
 
 .inner-content {
 	width: 100%;
-	color: #fff;
 	font-size: 19px;
 	display: inline-block;
 	vertical-align: middle;
 }
 
 .inner h1 {
-	font: 400 30px/1 'Dosis', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
 	margin-bottom: 100px;
 	letter-spacing: 1.7em;
 	text-indent: 1.7em;
 	text-transform: uppercase;
-	opacity: .9;
+	color: rgba(255, 255, 255, .90);
 }
 
 .inner-content span {
 	display: block;
-	opacity: .68;
+	color: rgba(255, 255, 255, .68);
 } 
 /* ===== Custom style end ===== */
