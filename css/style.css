@@ -50,6 +50,7 @@ blockquote {
 /* ===== Reset end ===== */
 
 /* ===== Default classes start ===== */
+
 .text-center {
 	text-align: center;
 }
@@ -73,6 +74,7 @@ blockquote {
 .bg-grey {
 	background-color: #f8f8f8;
 }
+
 /* ===== Default classes end ===== */
 
 /* ===== Default components start ===== */
@@ -212,6 +214,7 @@ blockquote span, .blockquote span {
 /* ===== Default components end ===== */
 
 /* ===== Custom style start ===== */
+/* ===== Inner start ===== */
 .inner {
 	background: url(../img/inner-bg.jpg) no-repeat center / cover;
 	height: 100vh;
@@ -219,6 +222,7 @@ blockquote span, .blockquote span {
 	padding-top: 80px;
 	position:relative;
 	z-index: 2;
+	margin-bottom: 5px;
 }
 
 .inner::before  {
@@ -261,4 +265,85 @@ blockquote span, .blockquote span {
 	display: block;
 	color: rgba(255, 255, 255, .68);
 } 
+/* ===== / Inner end ===== */
+/* ===== About studio start ===== */
+
+.about-studio blockquote p {
+	margin-bottom: 35px;
+}
+
+.team-wrapper {
+	margin-top: 105px;
+}
+
+.team-item .team-item-img {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.team-item .team-item-skills {
+	font-size: 13px;
+	font-weight: 400;
+	padding: 40px;
+	background-color: #000;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	transition: all .2s linear;
+}
+
+.team-item .team-item-skills span {
+	color: #fff;
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	letter-spacing: .3em;
+}
+
+.team-item .team-item-skills p {
+	margin-top: 30px;
+	line-height: 1.6;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.team-item .team-item-img:hover .team-item-skills {
+	opacity: 1;
+}
+
+.team-item-info span {
+	display: block;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	letter-spacing: .4em;
+	margin-bottom: 16px;
+}
+
+.team-item-info .team-item-role {
+	font-size: 12px;
+}
+/* ===== / About studio end ===== */
+/* ===== Why Choose Us start ===== */
+
+.why-choose-us .row + .row {
+	margin-top: 80px;
+}
+
+.team-quality .team-quality-icon {
+	margin-bottom: 35px;
+}
+
+.team-quality .team-quality-icon span {
+	font-size: 48px;
+}
+
+.team-quality .title {
+	display: block;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .4em;
+}
+
+/* ===== Why Choose Us end =====*/
 /* ===== Custom style end ===== */
