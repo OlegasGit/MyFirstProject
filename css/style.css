@@ -187,11 +187,14 @@ blockquote span, .blockquote span {
 }
 
 .btn {
-	font: 400 12px/1 'Open Sans', sans-serif;
 	display: inline-block;
 	padding: 12px 20px;
 	border-radius: 2px;
+	font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: 400;
 	text-transform: uppercase;
+	letter-spacing: .2em;
 }
 
 .btn.btn-default {
@@ -364,7 +367,12 @@ blockquote span, .blockquote span {
 
 #tabs .tabs-nav li {
 	float: left;
-	width: 20%;text-align: center;
+	width: 20%;
+	text-align: center;
+}
+
+.tabs-nav a {
+	display: inline-block;
 }
 
 .tabs-nav li .icon {
@@ -372,9 +380,23 @@ blockquote span, .blockquote span {
 	margin-bottom: 35px;
 }
 
-#tabs .tabs-nav .ui-state-active span {
+.tabs-nav .ui-state-active span {
 	font-weight: 600;
 }
-/* ===== Services end */
+/* ===== Services end ===== */
+/* ===== Lets talk start ===== */
+.lets-talk-content {
+	padding: 140px 0;
+}
+
+.lets-talk-content p {
+	color: rgba(255, 255, 255, .7);
+	margin-bottom: 35px;
+}
+
+.lets-talk .lets-talk-img {
+	margin-top: -32px;
+}
+/* ===== Lets talk end ===== */
 
 /* ===== Custom style end ===== */
