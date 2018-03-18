@@ -1,6 +1,11 @@
  /* ===== Reset start ===== */
+
 * {
 	box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
 }
 
 body {
@@ -272,6 +277,10 @@ blockquote span, .blockquote span {
 	margin-bottom: 35px;
 }
 
+.about-studio {
+	border-bottom: 1px solid #ececec;
+}
+
 .team-wrapper {
 	margin-top: 105px;
 }
@@ -337,13 +346,35 @@ blockquote span, .blockquote span {
 	font-size: 48px;
 }
 
-.team-quality .title {
+.team-quality .title, .tabs-nav li .title {
 	display: block;
 	margin-bottom: 20px;
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: .4em;
 }
-
 /* ===== Why Choose Us end =====*/
+
+/* ===== Services start ===== */
+
+#tabs .tabs-nav {
+	overflow: hidden;
+	margin-bottom: 55px;
+}
+
+#tabs .tabs-nav li {
+	float: left;
+	width: 20%;text-align: center;
+}
+
+.tabs-nav li .icon {
+	font-size: 48px;
+	margin-bottom: 35px;
+}
+
+#tabs .tabs-nav .ui-state-active span {
+	font-weight: 600;
+}
+/* ===== Services end */
+
 /* ===== Custom style end ===== */
