@@ -335,28 +335,6 @@ blockquote span, .blockquote span {
 	font-size: 12px;
 }
 /* ===== / About studio end ===== */
-/* ===== Why Choose Us start ===== */
-
-.why-choose-us .row + .row {
-	margin-top: 80px;
-}
-
-.team-quality .team-quality-icon {
-	margin-bottom: 35px;
-}
-
-.team-quality .team-quality-icon span {
-	font-size: 48px;
-}
-
-.team-quality .title, .tabs-nav li .title {
-	display: block;
-	margin-bottom: 20px;
-	font-size: 14px;
-	font-weight: 400;
-	letter-spacing: .4em;
-}
-/* ===== Why Choose Us end =====*/
 
 /* ===== Services start ===== */
 
@@ -384,6 +362,7 @@ blockquote span, .blockquote span {
 	font-weight: 600;
 }
 /* ===== Services end ===== */
+
 /* ===== Lets talk start ===== */
 .lets-talk-content {
 	padding: 140px 0;
@@ -398,5 +377,47 @@ blockquote span, .blockquote span {
 	margin-top: -32px;
 }
 /* ===== Lets talk end ===== */
+
+/* ===== Start project start ===== */
+.start-project {
+	padding: 70px 0;
+}
+
+.start-project span {
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: .3em;
+	line-height: 1.44;
+	margin-bottom: 20px;
+}
+
+/* ===== Start project end ===== */
+
+/* ===== Why Choose Us start ===== */
+
+.why-choose-us .row + .row {
+	margin-top: 80px;
+}
+
+.team-quality .team-quality-icon {
+	margin-bottom: 35px;
+}
+
+.team-quality .team-quality-icon span {
+	font-size: 48px;
+}
+
+.team-quality .title, .tabs-nav li .title {
+	display: block;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .4em;
+}
+/* ===== Why Choose Us end =====*/
+
+
+
 
 /* ===== Custom style end ===== */
