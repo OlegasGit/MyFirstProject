@@ -43,9 +43,21 @@ img {
 	max-width: 100%;
 }
 
-button {
+input, textarea, button {
 	outline: none;
 	border: none;
+}
+
+button {
+	cursor: pointer;
+	background: transparent;
+}
+
+textarea {
+	resize: vertical;
+}
+
+input[type="submit"] {
 	cursor: pointer;
 }
 
@@ -197,6 +209,11 @@ blockquote span, .blockquote span {
 	letter-spacing: .2em;
 }
 
+.btn[disabled] {
+	cursor: not-allowed;
+	opacity: .6;
+}
+
 .btn.btn-default {
 	background-color: #e5e5e5;
 	color: #777;
@@ -219,7 +236,54 @@ blockquote span, .blockquote span {
 	padding: 7px 15px;
 	font-size: 11px;
 }
+
+.form-control {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	height: 36px;
+	font-size: 12px;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #777;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+.form-control:focus {
+	border-color: #111;
+}
+
+textarea.form-control {
+	min-height: 82px;
+	padding-top: 10px;
+}
+
+.form-control[disabled], .form-control.disabled {
+	cursor: not-allowed;
+}
+
+.form-control.error {
+	border-color: #f57e7e;
+}
+
+.form-info {
+	font-size: 11px;
+	font-weight: 400;
+	color: #aaa;
+}
+
+.form-info .fa {
+	font-size: 12px;
+}
 /* ===== Default components end ===== */
+
+/* ===== Guide style start ===== */
+.guid-section form .form-control {
+	margin-bottom: 10px;
+}
+/* ===== Guide style endt ===== */
 
 /* ===== Custom style start ===== */
 /* ===== Inner start ===== */
@@ -338,7 +402,7 @@ blockquote span, .blockquote span {
 
 /* ===== Services start ===== */
 
-#tabs .tabs-nav {
+.tabs-nav {
 	overflow: hidden;
 	margin-bottom: 55px;
 }
@@ -359,7 +423,8 @@ blockquote span, .blockquote span {
 }
 
 .tabs-nav .ui-state-active span {
-	font-weight: 600;
+	color:#000;
+	font-weight: 900;
 }
 /* ===== Services end ===== */
 
@@ -377,6 +442,41 @@ blockquote span, .blockquote span {
 	margin-top: -32px;
 }
 /* ===== Lets talk end ===== */
+
+/* ===== Portfolio start ===== */
+.default-section.portfolio {
+	padding: 140px 0 0;
+}
+
+.portfolio p {
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.portfolio .tabs-nav li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.portfolio .tabs-nav li + li {
+	margin-left: 70px;
+}
+
+.portfolio .portfolio-item {
+	padding: 2px;
+	width: 33.3333%;
+	float: left;
+}
+
+.portfolio .portfolio-item img {
+	width: 100%;
+	filter: grayscale(100%)
+}
+.portfolio .portfolio-item img:hover {
+	filter: none;
+}
+
+/* ===== Portfolio end ===== */
 
 /* ===== Start project start ===== */
 .start-project {
@@ -412,12 +512,23 @@ blockquote span, .blockquote span {
 	display: block;
 	margin-bottom: 20px;
 	font-size: 14px;
-	font-weight: 400;
 	letter-spacing: .4em;
+}
+.team-quality .title {
+	font-weight: 400;
 }
 /* ===== Why Choose Us end =====*/
 
+/* ===== Subscribe start ===== */
 
+.subscribe .form-control {
+	max-width: 290px;
+}
 
+.subscribe .form-info {
+	margin-top: 17px;
+}
+
+/* ===== Subscribe end ===== */
 
 /* ===== Custom style end ===== */
