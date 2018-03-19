@@ -444,6 +444,15 @@ textarea.form-control {
 /* ===== Lets talk end ===== */
 
 /* ===== Portfolio start ===== */
+.portfolio .info-wrapper {
+	max-width: 752px;
+	margin: 0 auto;
+}
+
+.portfolio .info-wrapper span {
+	display: block;
+}
+
 .default-section.portfolio {
 	padding: 140px 0 0;
 }
@@ -518,6 +527,59 @@ textarea.form-control {
 	font-weight: 400;
 }
 /* ===== Why Choose Us end =====*/
+
+/* ===== Latest news start ===== */
+.latest-news span {
+	display: block;
+}
+
+.latest-news-title .section-title {
+	float: left;
+	margin-bottom: 0;
+}
+
+.latest-news-title {
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+
+.latest-news .all-news {
+	float: right;
+	margin-bottom: 0;
+}
+
+.news-item .news-img {
+	margin-bottom: 30px;
+}
+
+.latest-news .news-item img {
+	filter: grayscale(100%)
+}
+.latest-news .news-item img:hover {
+	filter: none;
+}
+
+.news-title {
+	font-size: 15px;
+	letter-spacing: .2em;
+	font-weight: 400;
+	margin-bottom: 17px;
+	text-transform: uppercase;
+}
+
+.news-info {
+	font-size: 11px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.news-item p {
+	margin-bottom: 25px;
+}
+
+
+/* ===== Latest news end ===== */
 
 /* ===== Subscribe start ===== */
 
