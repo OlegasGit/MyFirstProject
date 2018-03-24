@@ -524,6 +524,8 @@ textarea.form-control {
 /* ===== Latest news start ===== */
 .latest-news span {
 	display: block;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
 }
 
 .latest-news-title .section-title {
@@ -559,7 +561,6 @@ textarea.form-control {
 .news-title {
 	font-size: 15px;
 	letter-spacing: .2em;
-	font-weight: 400;
 	margin-bottom: 17px;
 	text-transform: uppercase;
 }
