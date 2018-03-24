@@ -424,7 +424,7 @@ textarea.form-control {
 
 .tabs-nav .ui-state-active span {
 	color:#000;
-	font-weight: 900;
+	font-weight: 500;
 }
 /* ===== Services end ===== */
 
@@ -446,7 +446,7 @@ textarea.form-control {
 /* ===== Portfolio start ===== */
 .portfolio .info-wrapper {
 	max-width: 752px;
-	margin: 0 auto;
+	margin: 0 auto 80px;
 }
 
 .portfolio .info-wrapper span {
@@ -457,11 +457,6 @@ textarea.form-control {
 	padding: 140px 0 0;
 }
 
-.portfolio p {
-	margin-bottom: 80px;
-	text-align: center;
-}
-
 .portfolio .tabs-nav li {
 	display: inline-block;
 	vertical-align: top;
@@ -469,6 +464,10 @@ textarea.form-control {
 
 .portfolio .tabs-nav li + li {
 	margin-left: 70px;
+}
+
+.portfolio .tabs-nav li .title {
+	margin-bottom: 0;
 }
 
 .portfolio .portfolio-item {
@@ -488,18 +487,12 @@ textarea.form-control {
 /* ===== Portfolio end ===== */
 
 /* ===== Start project start ===== */
-.start-project {
-	padding: 70px 0;
-}
 
 .start-project span {
 	display: block;
-	color: #fff;
-	font-size: 18px;
-	letter-spacing: .3em;
 	line-height: 1.44;
-	margin-bottom: 20px;
 }
+	
 
 /* ===== Start project end ===== */
 
@@ -546,6 +539,10 @@ textarea.form-control {
 .latest-news .all-news {
 	float: right;
 	margin-bottom: 0;
+}
+
+.latest-news .all-news:hover {
+	font-weight: 600;
 }
 
 .news-item .news-img {
