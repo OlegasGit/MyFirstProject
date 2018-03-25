@@ -50,7 +50,7 @@ input, textarea, button {
 
 button {
 	cursor: pointer;
-	background: transparent;
+	padding: 0;
 }
 
 textarea {
@@ -470,6 +470,10 @@ textarea.form-control {
 	margin-bottom: 0;
 }
 
+#tabs-portfolio {
+	overflow: hidden;
+}
+
 .portfolio .portfolio-item {
 	padding: 2px;
 	width: 33.3333%;
@@ -480,6 +484,7 @@ textarea.form-control {
 	width: 100%;
 	filter: grayscale(100%)
 }
+
 .portfolio .portfolio-item img:hover {
 	filter: none;
 }
@@ -520,6 +525,115 @@ textarea.form-control {
 	font-weight: 400;
 }
 /* ===== Why Choose Us end =====*/
+
+/* ===== Reviews start ===== */
+
+.slide-content .icon {
+	font-size: 32px;
+	color: #999;
+	margin-bottom: 24px;
+}
+
+.slide-content p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.666666667;
+	opacity: .75;
+	max-width: 730px;
+	margin: 40px auto 25px;
+}
+
+.slide-content .reviews-author {
+	color: #fff;
+	font-size: 11px;
+	line-height: 2.454545;
+	opacity: .3;
+	letter-spacing: .2em;
+}
+
+.reviews-carousel {
+	padding: 135px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.slick-dots {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 30px;
+}
+
+.slick-dots li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: rgba(255, 255, 255, .8);
+	border: 1px solid #000;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slick-dots li + li {
+	margin-left: 5px;
+}
+
+.slick-dots li.slick-active {
+	background-color: #000;
+	border-color: rgba(255, 255, 255, .8);
+}
+
+.slick-dots li button {
+	display: none;
+}
+
+.slick-arrow {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.slick-arrow:hover {
+	opacity: .5;
+}
+
+.slick-arrow.slick-prev {
+	left: 0;
+}
+
+.slick-arrow.slick-next {
+	right: 0;
+}
+
+.slick-arrow .carousel-button {
+	width: 63px;
+    height: 63px;
+    background: #fff;
+    transform: rotate(-45deg);
+    position: absolute;
+	top: 50%;
+	margin-left: -32px;
+	margin-top: -31px;
+}
+
+.slick-arrow .carousel-button .fa {
+	position: absolute;
+	transform: rotate(45deg);
+	font-size: 10px;
+}
+
+.slick-arrow.slick-prev .carousel-button .fa {
+	bottom: 14px;
+	right: 17px;
+}
+
+.slick-arrow.slick-next .carousel-button .fa {
+	top: 17px;
+	left: 14px;
+}
+/* ===== Reviews end ===== */
 
 /* ===== Latest news start ===== */
 .latest-news span {
