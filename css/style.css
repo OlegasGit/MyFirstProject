@@ -324,6 +324,7 @@ textarea.form-control {
 	right: 0;
 	bottom: 0;
 	background: rgba(0, 0, 0, .03);
+	z-index: -1;
 }
 
 .footer-logo {
@@ -337,7 +338,7 @@ textarea.form-control {
 	margin-bottom: 105px;
 }
 
-.footer-logo:hover, .footer-nav li:hover {
+.footer-logo:hover , .footer-nav a:hover {
 	opacity: .3;
 }
 
