@@ -114,7 +114,7 @@ blockquote {
 	max-width: 118px;
 }
 
-.header .logo img {
+.header .logo img, .footer-logo img {
 	width: 100%;
 }
 
@@ -302,8 +302,68 @@ textarea.form-control {
 .rhomb-icon.black-icon {
 	color: #fff;
 	background-color: #111;
-
 }
+
+.rhomb-icon.transparent-icon {
+	color: #111;
+	background-color: transparent;
+	border: 2px solid #5f5f5f;
+}
+
+/* ===== Footer syart ===== */
+.footer {
+	padding: 140px 0 50px;
+	position: relative;
+}
+
+.footer::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .03);
+}
+
+.footer-logo {
+	max-width: 78px;
+	margin: 0 auto 24px;
+}
+
+.footer-nav li {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 105px;
+}
+
+.footer-logo:hover, .footer-nav li:hover {
+	opacity: .3;
+}
+
+.footer-nav li + li {
+	margin-left: 13px;
+}
+
+.footer-copyright span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.footer .footer-copyright .copyright {
+	letter-spacing: .5em;
+	line-height: 2;
+	color: #111;
+}
+
+.footer .footer-copyright .tagline {
+	font-size: 11px;
+	line-height: 1.8;
+	color: #999;
+}
+
+/* ===== Footer end ===== */
+
 /* ===== Default components end ===== */
 
 /* ===== Guide style start ===== */
@@ -749,7 +809,7 @@ textarea.form-control {
 	margin-bottom: 10px;
 }
 
-.contacts .contact-title {
+.contacts .contact-title, .footer-copyright .copyright {
 	font-family: 'Dosis', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
