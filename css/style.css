@@ -92,6 +92,12 @@ blockquote {
 	background-color: #f8f8f8;
 }
 
+.m-auto {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* ===== Default classes end ===== */
 
 /* ===== Default components start ===== */
@@ -276,6 +282,27 @@ textarea.form-control {
 
 .form-info .fa {
 	font-size: 12px;
+}
+
+.rhomb-icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 2px;
+	font-size: 14px;
+	transform: rotate(45deg);
+}
+
+.rhomb-icon i {
+	transform: rotate(-45deg);
+}
+
+.rhomb-icon.black-icon {
+	color: #fff;
+	background-color: #111;
+
 }
 /* ===== Default components end ===== */
 
@@ -553,7 +580,6 @@ textarea.form-control {
 
 .reviews-carousel {
 	padding: 135px 0;
-	position: relative;
 	overflow: hidden;
 }
 
@@ -591,8 +617,9 @@ textarea.form-control {
 	position: absolute;
 	height: 100%;
 	top: 0;
-	z-index: 10;
+	z-index: 1;
 	cursor: pointer;
+	width: 90px;
 }
 
 .slick-arrow:hover {
@@ -616,6 +643,11 @@ textarea.form-control {
 	top: 50%;
 	margin-left: -32px;
 	margin-top: -31px;
+}
+
+.slick-arrow.slick-next .carousel-button {
+	right: 0;
+	margin-right: -31px;
 }
 
 .slick-arrow .carousel-button .fa {
@@ -704,5 +736,32 @@ textarea.form-control {
 }
 
 /* ===== Subscribe end ===== */
+
+/* ===== Contacts start ===== */
+.contact-item .contact-item-content {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+
+.contact-item .contact-item-content span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contacts .contact-title {
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+}
+
+.contacts .contact-data {
+	color: #444;
+	font-size: 15px;
+	line-height: 1.6; 
+}
+/* ===== Contacts end ===== */
 
 /* ===== Custom style end ===== */
