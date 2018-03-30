@@ -126,7 +126,8 @@ blockquote {
 	width: 100%;
 }
 
-.header .logo:hover,.header-nav a:hover {
+.header .logo:hover, .header-nav a:hover, 
+.inner-content .rhomb-icon:hover {
 	opacity: .3;
 }
 
@@ -255,7 +256,7 @@ blockquote span, .blockquote span, .skill-name {
 	width: 100%;
 	border: 1px solid #e5e5e5;
 	border-radius: 2px;
-	height: 36px;
+	height: 41px;
 	font-size: 12px;
 	font-family: 'Open Sans';
 	text-transform: uppercase;
@@ -270,7 +271,7 @@ blockquote span, .blockquote span, .skill-name {
 }
 
 textarea.form-control {
-	min-height: 82px;
+	min-height: 92px;
 	padding-top: 10px;
 }
 
