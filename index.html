@@ -798,6 +798,7 @@
 					<div class="form-info">
 						<span><i class="fa fa-info-circle"></i> Please trust us, we will never send you spam</span>
 					</div>
+					<!-- / form-info -->
 				</div>
 				<!-- / container -->
 			</div>
@@ -862,7 +863,20 @@
 							</div>
 							<!-- / contact-item-wrapper -->
 							<form class="contact-form">
-
+								<div class="form-col">
+									<input type="text" name="user-name" id="user-name" class="form-control" placeholder="Name">
+									<input type="text" name="user-email" id="user-email" class="form-control" placeholder="Email">
+								</div>
+								<!-- / form-col -->
+								<div class="form-col">
+									<textarea name="user-massage" id="user-massage" placeholder="Massage" class="form-control"></textarea>
+								</div>
+								<!-- / form-col -->
+								<div class="form-info pull-left">
+									<span><i class="fa fa-info-circle"></i> All the fields are required</span>
+								</div>
+								<!-- / form-info -->
+								<button type="submit" class="btn btn-black pull-right">Submit massage</button>
 							</form>
 							<!-- / contact-form -->
 						</div>

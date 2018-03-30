@@ -98,6 +98,14 @@ blockquote {
 	margin-right: auto;
 }
 
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
 /* ===== Default classes end ===== */
 
 /* ===== Default components start ===== */
@@ -792,6 +800,11 @@ textarea.form-control {
 /* ===== Subscribe end ===== */
 
 /* ===== Contacts start ===== */
+
+.contact-item-wrapper {
+	margin-bottom: 80px;
+}
+
 .contact-item .contact-item-content {
 	display: inline-block;
 	vertical-align: middle;
@@ -800,7 +813,7 @@ textarea.form-control {
 
 .contact-item .contact-item-content span {
 	display: block;
-	margin-bottom: 5px;
+	margin-bottom: 4px;
 }
 
 .contacts .contact-title, .footer-copyright .copyright {
@@ -815,6 +828,32 @@ textarea.form-control {
 	color: #444;
 	font-size: 15px;
 	line-height: 1.6; 
+}
+
+.contact-form {
+	margin: 0 -5px;
+	overflow: hidden;
+}
+
+.contact-form .form-col {
+	float: left;
+	width: 50%;
+	padding: 0 5px;
+}
+
+.contact-form .form-control + .form-control {
+	margin-top: 10px;
+}
+
+.contact-form .form-info {
+	margin-top: 20px;
+	margin-left: 5px;
+	line-height: 2.3636;
+}
+
+.contact-form .btn {
+	margin-top: 20px;
+	margin-right: 5px;
 }
 /* ===== Contacts end ===== */
 
