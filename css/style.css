@@ -308,23 +308,13 @@ textarea.form-control {
 	color: #111;
 	background-color: transparent;
 	border: 2px solid #5f5f5f;
+	border-radius: 4px;
 }
 
 /* ===== Footer syart ===== */
 .footer {
 	padding: 140px 0 50px;
-	position: relative;
-}
-
-.footer::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(0, 0, 0, .03);
-	z-index: -1;
+	background-color: #f8f8f8;
 }
 
 .footer-logo {
@@ -332,10 +322,13 @@ textarea.form-control {
 	margin: 0 auto 24px;
 }
 
+.footer-nav {
+	margin-bottom: 105px;
+}
+
 .footer-nav li {
 	display: inline-block;
 	vertical-align: top;
-	margin-bottom: 105px;
 }
 
 .footer-logo:hover , .footer-nav a:hover {
@@ -807,7 +800,7 @@ textarea.form-control {
 
 .contact-item .contact-item-content span {
 	display: block;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 .contacts .contact-title, .footer-copyright .copyright {
