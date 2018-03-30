@@ -424,6 +424,7 @@ textarea.form-control {
 	font-size: 19px;
 	display: inline-block;
 	vertical-align: middle;
+	position: static;
 }
 
 .inner h1 {
@@ -440,6 +441,20 @@ textarea.form-control {
 	display: block;
 	color: rgba(255, 255, 255, .68);
 } 
+
+.inner-content .rhomb-icon {
+	position: absolute;
+	bottom: 30px;
+	left: 49.4%;
+}
+
+.inner-content .rhomb-icon .fa {
+	font-size: 15px;
+	position: absolute;
+    bottom: 4px;
+	left: 12px;
+}
+
 /* ===== / Inner end ===== */
 /* ===== About studio start ===== */
 
