@@ -109,6 +109,8 @@ blockquote {
 /* ===== Default classes end ===== */
 
 /* ===== Default components start ===== */
+
+/* ====== Header start ===== */
 .header {
 	padding: 27px 0;
 	position: absolute;
@@ -152,6 +154,8 @@ blockquote {
 .header .container-fluid {
 	overflow: hidden;
 }
+
+/* ====== Header end ===== */
 
 .default-section {
 	padding: 135px 0;
@@ -895,7 +899,12 @@ textarea.form-control {
 }
 
 .contact-form {
+	overflow: hidden;
+}
+
+.form-row {
 	margin: 0 -5px;
+	margin-bottom: 20px;
 	overflow: hidden;
 }
 
@@ -910,15 +919,9 @@ textarea.form-control {
 }
 
 .contact-form .form-info {
-	margin-top: 20px;
-	margin-left: 5px;
 	line-height: 2.3636;
 }
 
-.contact-form .btn {
-	margin-top: 20px;
-	margin-right: 5px;
-}
 /* ===== Contacts end ===== */
 
 /* ===== Map start ====== */
