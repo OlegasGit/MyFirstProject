@@ -220,6 +220,13 @@ blockquote {
 	line-height: 1.7333;
 	font-weight: 300;
 }
+@media (max-width: 479px) {
+	.default-text {
+		font-size: 17px;
+		line-height: 1.3;
+		font-weight: 400;
+	}
+}
 
 blockquote, .blockquote {
 	font-size: 24px;
@@ -252,6 +259,11 @@ blockquote span, .blockquote span, .skill-name {
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: .2em;
+}
+@media (max-width: 479px) {
+	.btn {
+		width: 100%;
+	}
 }
 
 .btn[disabled] {
@@ -366,6 +378,11 @@ textarea.form-control {
 	right: 30px;
 	bottom: 30px;
 	cursor: pointer;
+}
+@media (max-width: 479px) {
+	.arrow-up {
+		display: none;
+	}
 }
 
 /* ===== Footer syart ===== */
@@ -516,7 +533,21 @@ textarea.form-control {
 	.inner-content .rhomb-icon {
 		display: none;
 	}
-
+}
+@media (max-width: 576px) {
+	.inner h1 {
+		letter-spacing: .5em;
+		text-indent: .5em;
+		margin-bottom: 50px;
+	}
+	.inner-content {
+		font-size: 18px;
+	}
+}
+@media (max-width: 479px) {
+	.inner h1 {
+		font-size: 20px;
+	}
 }
 /* ===== / Inner end ===== */
 /* ===== About studio start ===== */
@@ -652,7 +683,9 @@ textarea.form-control {
 	.about-studio .default-text {
 		text-align: justify;
 	}
-
+	.about-studio .col + .col {
+		margin-bottom: 15px;
+	}
 	.team-item {
 		margin-bottom: 25px;
 		border-bottom: 2px solid #000;
@@ -688,6 +721,33 @@ textarea.form-control {
 	}
 	.progress-wrapp .progress {
 		height: 20px;
+	}
+}
+@media (max-width: 576px) {
+	.about-studio {
+		padding-bottom: 0;
+	}
+	.about-studio .col + .col {
+		margin-bottom: 15px;
+	}
+}
+@media (max-width: 479px) {
+	.team-wrapper {
+		margin-top: 35px;
+	}
+	.team-item .team-item-skills p {
+		text-align: justify;
+		line-height: 1.2;
+		margin-bottom: 5px;
+	}
+	.team-item .team-item-skills {
+		padding: 10px;
+	}
+	.progress-wrapp {
+		height: 5px;
+	}
+	.progress-wrapp .progress {
+		height: 5px;
 	}
 }
 /* ===== / About studio end ===== */
@@ -726,9 +786,7 @@ textarea.form-control {
 	#tabs .tabs-nav .title {
 		font-size: 12px;
 	}
-
 }
-
 @media (max-width: 767px) {
 	#tabs .tabs-nav li {
 		width: 33.3333%;
@@ -738,6 +796,28 @@ textarea.form-control {
 	}
 	.services .default-text {
 		text-align: justify;
+	}
+	.services .col + .col {
+		margin-bottom: 15px;
+	}
+}
+@media (max-width: 576px) {
+	.services .col + .col {
+		margin-bottom: 15px;
+	}
+}
+@media (max-width: 479px) {
+	#tabs .tabs-nav li {
+		width: 100%;
+	}
+	#tabs .tabs-nav li:nth-child(4) {
+		margin-left: 0;
+	}
+	#tabs .tabs-nav .title {
+		font-size: 14px;
+	}
+	.services .default-text {
+		font-size: 17px;
 	}
 }
 /* ===== Services end ===== */
@@ -756,12 +836,18 @@ textarea.form-control {
 	margin-top: -32px;
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
 	.lets-talk-content {
 		padding: 70px 0;
 	}
 	.lets-talk .col {
 		text-align: center;
+	}
+}
+@media (max-width: 576px) {
+	.lets-talk .title.section-title-light {
+		font-size: 15px;
+		line-height: 1.5;
 	}
 }
 /* ===== Lets talk end ===== */
@@ -832,7 +918,18 @@ textarea.form-control {
 		margin: 0 0 25px 0;
 	}
 }
-
+@media (max-width: 576px) {
+	.portfolio .portfolio-item {
+		border-top: 3px solid #000;
+		width: 100%;
+	}
+}
+@media (max-width: 479px) {
+	.portfolio .tabs-nav li {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+} 
 /* ===== Portfolio end ===== */
 
 /* ===== Start project start ===== */
@@ -1000,8 +1097,24 @@ textarea.form-control {
 	.slide-content p {
 		max-width: 475px;
 	}
-	.contacts .col {
-		margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+	.slide-content p {
+		max-width: 334px;
+	}
+	.slide-content .reviews-author {
+		font-size: 14px;
+	}
+}
+@media (max-width: 479px) {
+	.reviews-carousel {
+		padding: 70px 0;
+	}
+	.slick-arrow .carousel-button {
+		display: none;
+	}
+	.slide-content p {
+		max-width: 290px;
 	}
 }
 /* ===== Reviews end ===== */
@@ -1074,6 +1187,25 @@ textarea.form-control {
 		padding-bottom: 0;
 	}
 }
+@media (max-width: 576px) {
+	.latest-news-title {
+		margin-bottom: 30px;
+	}
+	.latest-news-title .section-title {
+		text-align: center;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.latest-news .all-news {
+		float: none;
+		font-size: 12px;
+	}
+}
+@media (max-width: 479px) {
+	.news-title {
+		font-size: 18px;
+	}
+}
 /* ===== Latest news end ===== */
 
 /* ===== Subscribe start ===== */
@@ -1084,6 +1216,14 @@ textarea.form-control {
 
 .subscribe .form-info {
 	margin-top: 17px;
+}
+@media (max-width: 479px) {
+	.subscribe .title.section-title-light {
+		line-height: 1.5;
+	}
+	.subscribe input {
+		margin-bottom: 15px;
+	}
 }
 
 /* ===== Subscribe end ===== */
@@ -1146,13 +1286,34 @@ textarea.form-control {
 @media (max-width: 767px) {
 	.contact-item-wrapper {
 		margin-bottom: 30px;
+		text-align: center;
 	}
 	.contact-form .form-col {
 		width: 100%;
 		margin-bottom: 20px;
 	}
+	.contacts .col {
+		margin-bottom: 20px;
+	}
+	.contact-item .rhomb-icon {
+		margin-bottom: 20px;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 20px;
+	}
+	.contact-item .contact-item-content {
+		display: block;
+	}
+	.contacts .contact-title {
+		font-size: 18px;
+	}
 }
-
+@media (max-width: 479px) {
+	.contacts .contact-data {
+		font-size: 18px;
+	}
+}
 /* ===== Contacts end ===== */
 
 /* ===== Map start ====== */

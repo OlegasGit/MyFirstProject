@@ -15,5 +15,4 @@ $(function() {
         appendTo:'.header .container-fluid',
         label: '',
     });
-
 });
