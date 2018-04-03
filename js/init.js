@@ -15,4 +15,13 @@ $(function() {
         appendTo:'.header .container-fluid',
         label: '',
     });
+
+    // Init Lightbox option
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'positionFromTop': 200,
+      'alwaysShowNavOnTouchDevices': true,
+    });
+
 });

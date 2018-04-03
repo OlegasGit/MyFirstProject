@@ -1,4 +1,4 @@
-;(function($) {
+(function($) {
 	// Scroll to element
 	const scrollBtn = $('[data-scroll]');
 
