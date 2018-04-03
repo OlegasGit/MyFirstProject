@@ -155,6 +155,22 @@ blockquote {
 	overflow: hidden;
 }
 
+.slicknav_menu {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.header .logo {
+		padding: 6px 0;
+	}
+	.slicknav_menu {
+		display: block;
+	}
+	.header-nav {
+		display: none;
+	}
+}
+
 /* ====== Header end ===== */
 
 .default-section {
@@ -215,6 +231,16 @@ blockquote span, .blockquote span, .skill-name {
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: .2em;
+}
+
+@media (max-width: 991px) {
+	blockquote {
+		margin-bottom: 30px;
+	}
+	
+	.default-section {
+		padding: 70px 0;
+	}
 }
 
 .btn {
@@ -292,7 +318,11 @@ textarea.form-control {
 	font-weight: 400;
 	color: #aaa;
 }
-
+@media (max-width: 767px) {
+	.form-info {
+		font-size: 14px;
+	}
+}
 .form-info .fa {
 	font-size: 12px;
 }
@@ -460,6 +490,34 @@ textarea.form-control {
 	left: 12px;
 }
 
+@media (max-width: 991px) {
+	.inner h1 {
+		letter-spacing: .7em;
+		text-indent: .7em;
+		margin-bottom: 50px;
+	}
+	.inner-content .rhomb-icon {
+		left: 48.4%;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+	}
+	.inner-content .rhomb-icon .fa {
+		font-size: 10px;
+		bottom: 2px;
+		left: 8px;
+	}
+}
+@media (max-width: 767px) {
+	.inner {
+		height: auto;
+		padding: 150px 0;
+	}
+	.inner-content .rhomb-icon {
+		display: none;
+	}
+
+}
 /* ===== / Inner end ===== */
 /* ===== About studio start ===== */
 
@@ -555,6 +613,83 @@ textarea.form-control {
 .team-item-info .team-item-role {
 	font-size: 12px;
 }
+
+@media (max-width: 1200px) {
+	.team-item .team-item-skills {
+		padding: 25px;
+	}
+	.team-item .team-item-skills p {
+		margin-bottom: 20px;
+	}
+	.about-studio {
+		border-bottom: 2px solid #ececec;
+	}
+}
+
+@media (max-width: 991px) {
+	.team-item .team-item-skills {
+		padding: 10px;
+		font-size: 11px;
+	}
+	.skill-item .title {
+		margin-bottom: 5px;
+		font-size: 14px;
+	}
+	.team-item .team-item-skills p {
+		margin-bottom: 5px;
+	}
+	
+	.team-item-name {
+		font-size: 12px;
+	}
+
+	.team-item-info .team-item-role {
+		font-size: 9px;
+	}
+}
+
+@media (max-width: 767px) {
+	.about-studio .default-text {
+		text-align: justify;
+	}
+
+	.team-item {
+		margin-bottom: 25px;
+		border-bottom: 2px solid #000;
+	}
+	.team-item .team-item-img {
+		margin-bottom: 10px;
+	}
+	.team-item .team-item-img img {
+		width: 100%;
+	}
+	.skill-item .title {
+		margin-bottom: 15px;
+		font-size: 18px;
+	}
+	.team-item .team-item-skills {
+		padding: 35px;
+		font-size: 16px;
+	}
+	.team-item-name {
+		font-size: 16px;
+	}
+	.team-item-info .team-item-role {
+		font-size: 12px;
+	}
+	.skill-item .skill-name {
+		font-size: 14px;
+	}
+	.team-item .team-item-skills p {
+		margin-bottom: 30px;
+	}
+	.progress-wrapp {
+		height: 20px;
+	}
+	.progress-wrapp .progress {
+		height: 20px;
+	}
+}
 /* ===== / About studio end ===== */
 
 /* ===== Services start ===== */
@@ -583,6 +718,28 @@ textarea.form-control {
 	color:#000;
 	font-weight: 500;
 }
+
+@media (max-width: 991px) {
+	#tabs .tabs-nav {
+		margin-bottom: 20px;
+	}
+	#tabs .tabs-nav .title {
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	#tabs .tabs-nav li {
+		width: 33.3333%;
+	}
+	#tabs .tabs-nav li:nth-child(4) {
+		margin-left: 16%;
+	}
+	.services .default-text {
+		text-align: justify;
+	}
+}
 /* ===== Services end ===== */
 
 /* ===== Lets talk start ===== */
@@ -597,6 +754,15 @@ textarea.form-control {
 
 .lets-talk .lets-talk-img {
 	margin-top: -32px;
+}
+
+@media (max-width:991px) {
+	.lets-talk-content {
+		padding: 70px 0;
+	}
+	.lets-talk .col {
+		text-align: center;
+	}
 }
 /* ===== Lets talk end ===== */
 
@@ -646,6 +812,27 @@ textarea.form-control {
 	filter: none;
 }
 
+@media (max-width: 991px) {
+	.portfolio .portfolio-item {
+		width: 50%;
+	}
+}
+@media (max-width: 767px) {
+	.portfolio .info-wrapper {
+		max-width: 490px;
+	}
+	.portfolio .tabs-nav .title {
+		border-bottom: 1px solid #000;
+		font-size: 16px;
+	}
+	.portfolio .tabs-nav li {
+		width: 49%;
+	}
+	.portfolio .tabs-nav li + li {
+		margin: 0 0 25px 0;
+	}
+}
+
 /* ===== Portfolio end ===== */
 
 /* ===== Start project start ===== */
@@ -678,9 +865,22 @@ textarea.form-control {
 	font-size: 14px;
 	letter-spacing: .4em;
 }
+
 .team-quality .title {
 	font-weight: 400;
 }
+
+@media (max-width: 991px) {
+	.why-choose-us .row + .row {
+		margin-top: 0;
+	}
+
+	.team-quality {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}
+
 /* ===== Why Choose Us end =====*/
 
 /* ===== Reviews start ===== */
@@ -795,6 +995,15 @@ textarea.form-control {
 	top: 17px;
 	left: 14px;
 }
+
+@media (max-width: 767px) {
+	.slide-content p {
+		max-width: 475px;
+	}
+	.contacts .col {
+		margin-bottom: 20px;
+	}
+}
 /* ===== Reviews end ===== */
 
 /* ===== Latest news start ===== */
@@ -852,7 +1061,19 @@ textarea.form-control {
 	margin-bottom: 25px;
 }
 
-
+@media (max-width: 991px) {
+	.news-item .news-img img {
+		width: 100%;
+	}
+	.latest-news .news-item {
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		border-bottom: 2px solid #000;
+	}
+	.default-section.latest-news {
+		padding-bottom: 0;
+	}
+}
 /* ===== Latest news end ===== */
 
 /* ===== Subscribe start ===== */
@@ -922,6 +1143,16 @@ textarea.form-control {
 	line-height: 2.3636;
 }
 
+@media (max-width: 767px) {
+	.contact-item-wrapper {
+		margin-bottom: 30px;
+	}
+	.contact-form .form-col {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
 /* ===== Contacts end ===== */
 
 /* ===== Map start ====== */
@@ -978,3 +1209,24 @@ textarea.form-control {
 /* ===== Map end ====== */
 
 /* ===== Custom style end ===== */
+
+/* ===== Media ===== */
+/* @media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+	
+}
+
+@media (max-width: 767px) {
+	
+}
+
+@media (max-width: 576px) {
+	
+}
+
+@media (max-width: 479px) {
+	
+} */
