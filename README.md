@@ -2,7 +2,7 @@
 
 * Структура проекта.
 1. www/ 
-    2. css/ 
+2. css/ 
         2. et-line.css
         2. font-awesome.min.css
         2. grid.css
