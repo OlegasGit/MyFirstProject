@@ -1,4 +1,5 @@
 $(function() {
+
     // Init tabs
     $( "#tabs" ).tabs();
     $( "#tabs-portfolio" ).tabs();
@@ -13,7 +14,7 @@ $(function() {
     // Init slick nav
     $('.header-nav').slicknav({
         appendTo:'.header .container-fluid',
-        label: '',
+        label: ''
     });
 
     // Init Lightbox option
