@@ -6,12 +6,12 @@
 --------------------------------|----------------------
 1. www/                         |
 2. css/                         |
-2. 1. et-line.css                  |
-2. 2. font-awesome.min.css         |
-2. 3. grid.css                     |
-2. 4. lightbox.min.css             |
-2. 5. slicknav.css                 |
-2. 6. style.css                    |
+   et-line.css                  |
+   font-awesome.min.css         |
+   grid.css                     |
+   lightbox.min.css             |
+   slicknav.css                 |
+   style.css                    |
 3. fonts/                       |
 3. 1. et-line.eot                  |
 3. 2. et-line.svg                  |
