@@ -6,32 +6,32 @@
 -----------------------------------|----------------------
 1. www/                            |
 2. css/                            |
-2. 1. et-line.css                  |
-2. 2. font-awesome.min.css         |
-2. 3. grid.css                     |
-2. 4. lightbox.min.css             |
-2. 5. slicknav.css                 |
-2. 6. style.css                    |
+   1. et-line.css                  |
+   2. font-awesome.min.css         |
+   3. grid.css                     |
+   4. lightbox.min.css             |
+   5. slicknav.css                 |
+   6. style.css                    |
 3. fonts/                          |
-3. 1. et-line.eot                  |
-3. 2. et-line.svg                  |
-3. 3. et-line.ttf                  |
-3. 4. et-line.woff                 |
-3. 5. FontAwesome.otf              |
-3. 6. fontawesome-webfont.eot      |
-3. 7. fontawesome-webfont.svg      |
-3. 8. fontawesome-webfont.ttf      |
-3. 9. fontawesome-webfont.woff     |
+   1. et-line.eot                  |
+   2. et-line.svg                  |
+   3. et-line.ttf                  |
+   4. et-line.woff                 |
+   5. FontAwesome.otf              |
+   6. fontawesome-webfont.eot      |
+   7. fontawesome-webfont.svg      |
+   8. fontawesome-webfont.ttf      |
+   9. fontawesome-webfont.woff     |
 4. img/                            |
-4. 1*.jpg                          |
-4. 2*.png                          |
+   1. *.jpg                        |
+   2. *.png                        |
 5. js/                             |
-5. 1. google-maps.js               |
-5. 2. header-scroll.js             |
-5. 3. init.js                      |
-5. 4. jquery.slicknav.min.js       |
-5. 5. lightbox.min.js              |
-5. 6. scroll-to.js                 |
+   1. google-maps.js               |
+   2. header-scroll.js             |
+   3. init.js                      |
+   4. jquery.slicknav.min.js       |
+   5. lightbox.min.js              |
+   6. scroll-to.js                 |
 6. guide.html                      |
 7. index.html                      |
 8. README.md                       |
