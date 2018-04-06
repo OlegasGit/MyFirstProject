@@ -2,39 +2,39 @@
 ***
 * Структура проекта.
 
-Название файла                     | Содержание файла
------------------------------------|----------------------
-1. www/                            |
-2. css/                            |
-   1. et-line.css                  | Стили иконочного шрифта Et-Line <https://www.npmjs.com/package/et-line>
-   2. font-awesome.min.css         | Стили иконочного шрифта Font Awesome <https://fontawesome.com/>
-   3. grid.css                     | 
-   4. lightbox.min.css             |
-   5. slicknav.css                 |
-   6. style.css                    |
-3. fonts/                          |
-   1. et-line.eot                  |
-   2. et-line.svg                  |
-   3. et-line.ttf                  |
-   4. et-line.woff                 |
-   5. FontAwesome.otf              |
-   6. fontawesome-webfont.eot      |
-   7. fontawesome-webfont.svg      |
-   8. fontawesome-webfont.ttf      |
-   9. fontawesome-webfont.woff     |
-4. img/                            |
-   1. *.jpg                        |
-   2. *.png                        |
-5. js/                             |
-   1. google-maps.js               |
-   2. header-scroll.js             |
-   3. init.js                      |
-   4. jquery.slicknav.min.js       |
-   5. lightbox.min.js              |
-   6. scroll-to.js                 |
-6. guide.html                      |
-7. index.html                      |
-8. README.md                       |
+Название файла               | Содержание файла
+-----------------------------|----------------------
+www/                         |
+css/                         |
+et-line.css                  | Стили иконочного шрифта Et-Line <https://www.npmjs.com/package/et-line>
+font-awesome.min.css         | Стили иконочного шрифта Font Awesome <https://fontawesome.com/>
+grid.css                     | 
+lightbox.min.css             |
+slicknav.css                 |
+style.css                    |
+fonts/                       |
+et-line.eot                  |
+et-line.svg                  |
+et-line.ttf                  |
+et-line.woff                 |
+FontAwesome.otf              |
+fontawesome-webfont.eot      |
+fontawesome-webfont.svg      |
+fontawesome-webfont.ttf      |
+fontawesome-webfont.woff     |
+img/                         |
+*.jpg                        |
+*.png                        |
+js/                          |
+google-maps.js               |
+header-scroll.js             |
+init.js                      |
+jquery.slicknav.min.js       |
+lightbox.min.js              |
+scroll-to.js                 |
+guide.html                   |
+index.html                   |
+README.md                    |
 
 Название файла  | Содержание файла
 ----------------|----------------------
