@@ -33,5 +33,6 @@
 	}
 
 	$(window).on('scroll', onScroll);
+	$(window).on('load', onScroll);
 
 })(jQuery);
