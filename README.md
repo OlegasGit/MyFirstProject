@@ -6,9 +6,9 @@
 -----------------------------------|----------------------
 1. www/                            |
 2. css/                            |
-   1. et-line.css                  |
-   2. font-awesome.min.css         |
-   3. grid.css                     |
+   1. et-line.css                  | Стили иконочного шрифта Et-Line <https://www.npmjs.com/package/et-line>
+   2. font-awesome.min.css         | Стили иконочного шрифта Font Awesome <https://fontawesome.com/>
+   3. grid.css                     | 
    4. lightbox.min.css             |
    5. slicknav.css                 |
    6. style.css                    |
