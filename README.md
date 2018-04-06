@@ -2,17 +2,17 @@
 ***
 * Структура проекта.
 
-Название файла               | Содержание файла
------------------------------|----------------------
-www/                         |
-css/                         |
+Название файла                       | Содержание файла
+-------------------------------------|----------------------
+www/                                 |
+css/                                 |
         et-line.css                  | Стили иконочного шрифта Et-Line <https://www.npmjs.com/package/et-line>
         font-awesome.min.css         | Стили иконочного шрифта Font Awesome <https://fontawesome.com/>
         grid.css                     | 
         lightbox.min.css             |
         slicknav.css                 |
         style.css                    |
-fonts/                       |
+fonts/                               |
         et-line.eot                  |
         et-line.svg                  |
         et-line.ttf                  |
@@ -22,19 +22,19 @@ fonts/                       |
         fontawesome-webfont.svg      |
         fontawesome-webfont.ttf      |
         fontawesome-webfont.woff     |
-img/                         |
+img/                                 |
         *.jpg                        |
         *.png                        |
-js/                          |
+js/                                  |
         google-maps.js               |
         header-scroll.js             |
         init.js                      |
         jquery.slicknav.min.js       |
         lightbox.min.js              |
         scroll-to.js                 |
-guide.html                   |
-index.html                   |
-README.md                    |
+guide.html                           |
+index.html                           |
+README.md                            |
 
 Название файла  | Содержание файла
 ----------------|----------------------
