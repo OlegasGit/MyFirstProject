@@ -3,6 +3,7 @@
 * Структура проекта.
 ***
 **Файлы. Структура, содердание**
+
 Название файла               | Содержание файла
 -----------------------------|----------------------
 www/                         | 
@@ -14,14 +15,14 @@ lightbox.min.css             | Стили модальной галереии и
 slicknav.css                 | Стили мобильной менюшки - Slicknav <http://slicknav.io/>
 style.css                    | Стили применяемые в данном проекте
 fonts/                       |
-et-line.eot                  | -
-et-line.svg                  | -
-et-line.ttf                  | -
+et-line.eot                  | +
+et-line.svg                  | +
+et-line.ttf                  | +
 et-line.woff                 | Файлы шрифтов Et-Line, подключенных к проекту
-FontAwesome.otf              | -
-fontawesome-webfont.eot      | -
-fontawesome-webfont.svg      | -
-fontawesome-webfont.ttf      | -
+FontAwesome.otf              | +
+fontawesome-webfont.eot      | +
+fontawesome-webfont.svg      | +
+fontawesome-webfont.ttf      | +
 fontawesome-webfont.woff     | Файлы шрифтов Font Awesome, подключенных к проекту
 img/                         |
 *.jpg                        | Изображения данного формата применяемые в проекте
