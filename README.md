@@ -6,9 +6,9 @@
 
 Название файла               | Содержание файла
 -----------------------------|----------------------
-www/                         | 
-css/                         | 
-			     |
+www/                         |
+css/                         |
+                             |
 et-line.css                  | Стили иконочного шрифта Et-Line <https://www.npmjs.com/package/et-line>
 font-awesome.min.css         | Стили иконочного шрифта Font Awesome <https://fontawesome.com/>
 grid.css                     | Стили оформления применяемые на классы .form и .col
