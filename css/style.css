@@ -554,7 +554,8 @@
  		line-height: 20px;
  	}
  	.inner-content .rhomb-icon .fa {
- 		font-size: 10px;
+		 font-size: 10px;
+		 line-height: 12px;
  		bottom: 2px;
  		left: 8px;
  	}
