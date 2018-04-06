@@ -313,3 +313,212 @@ blockquote span, .blockquote span | Стандартная подпись цит
 Также применяется стандартный копонент - **сетка (Grid)** который включает себя стандартные классы **.row** и **.col** (.col1 - .col12) Что позволяет упростить создание разметки страницы
 
 Описаны в файле **grid.css**
+
+***
+
+**Гайд по проекту**
+
+***
+
+Для данного проекта написан **guide.html** в котором представлены примеры получения нужных компонентов.
+
+Примеры гайда:
+
+**Стандартная секция(default-section):**
+
+Разметка
+``` html
+<!-- Default section -->
+		<div class="default-section">
+			<div class="container">
+				<div class="title section-title">
+					<span>Default section title</span>
+				</div>
+				<div class="title section-title-light">
+					<span>Default section title light</span>
+				</div>
+				<div class="title section-title-light text-right">
+					<span>Default section title right</span>
+				</div>
+				<div class="title section-title-light text-center">
+					<span>Default section title center</span>
+				</div>
+			</div>
+		</div>
+```
+Стили
+``` html
+.default-section {
+ 	padding: 135px 0;
+ }
+ .container {
+ 	max-width: 1200px;
+ 	padding: 0 15px;
+ 	margin: 0 auto;
+ }
+ .title {
+ 	font-family: 'Dosis', sans-serif;
+ 	text-transform: uppercase;
+ 	color: #111;
+ }
+ .title.section-title {
+ 	font-size: 18px;
+ 	letter-spacing: .5em;
+ 	margin-bottom: 75px;
+ 	font-weight: 400;
+ }
+ .title.section-title-light {
+ 	font-size: 18px;
+ 	letter-spacing: .3em;
+ 	margin-bottom: 20px;
+ 	font-weight: 300;
+ }
+ .text-center {
+ 	text-align: center;
+ }
+ .text-right {
+ 	text-align: right;
+ }
+```
+
+**Стандартная цитата с текстом (default-text and blockquote)**
+
+Разметка
+``` html
+<!-- Default text and blockquote -->
+		<div class="default-section">
+			<div class="container">
+				<div class="title section-title-light text-center">
+					<span>Default text and blockquote</span>
+				</div>
+				<p class="default-text">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque illum similique voluptatibus enim explicabo facilis voluptas, dolorum molestias assumenda nam ex illo vero laboriosam, optio adipisci possimus quisquam dolore magni.
+				</p>
+				<blockquote class="blockquote">
+					<p>A brand for a company is like 
+					a reputation for a person. You earn reputation by trying to do hard things well.</p>
+					<span>- Louis Kahn</span>
+				</blockquote>
+			</div>
+		</div>
+```
+Стили 
+``` html
+.default-section {
+ 	padding: 135px 0;
+ }
+ .container {
+ 	max-width: 1200px;
+ 	padding: 0 15px;
+ 	margin: 0 auto;
+ }
+ .title {
+ 	font-family: 'Dosis', sans-serif;
+ 	text-transform: uppercase;
+ 	color: #111;
+ }
+ .title.section-title-light {
+ 	font-size: 18px;
+ 	letter-spacing: .3em;
+ 	margin-bottom: 20px;
+ 	font-weight: 300;
+ }
+ .text-center {
+ 	text-align: center;
+ }
+ .default-text {
+ 	font-size: 15px;
+ 	line-height: 1.7333;
+ 	font-weight: 300;
+ }
+ blockquote, .blockquote {
+ 	font-size: 24px;
+ 	font-weight: 300;
+ 	line-height: 1.6;
+ }
+ blockquote span, .blockquote span, .skill-name {
+ 	font-size: 11px;
+ 	text-transform: uppercase;
+ 	letter-spacing: .2em;
+ }
+```
+**Кнопки (buttons)**
+
+Разметка
+``` html
+<!-- Buttons -->
+		<div class="default-section">
+			<div class="container">
+				<div class="title section-title-light">
+					<span>Default buttons</span>
+				</div>
+				<a href="#" class="btn btn-default">Default button</a>
+				<a href="#" class="btn btn-black">Black button</a>
+				<button class="btn btn-default btn-xs">Xs button</button>
+			</div>
+		</div>
+```
+Стили
+``` html
+.default-section {
+ 	padding: 135px 0;
+ }
+ .container {
+ 	max-width: 1200px;
+ 	padding: 0 15px;
+ 	margin: 0 auto;
+ }
+ .title {
+ 	font-family: 'Dosis', sans-serif;
+ 	text-transform: uppercase;
+ 	color: #111;
+ }
+ .title.section-title-light {
+ 	font-size: 18px;
+ 	letter-spacing: .3em;
+ 	margin-bottom: 20px;
+ 	font-weight: 300;
+ }
+ .btn {
+ 	display: inline-block;
+ 	padding: 12px 20px;
+ 	border-radius: 2px;
+ 	font-family: 'Open Sans';
+ 	font-size: 12px;
+ 	font-weight: 400;
+ 	text-transform: uppercase;
+ 	letter-spacing: .2em;
+ }
+ .btn.btn-default {
+ 	background-color: #e5e5e5;
+ 	color: #777;
+ }
+ .btn.btn-default:hover {
+ 	background-color: #d1d0d0;
+ }
+ .btn.btn-black {
+ 	background-color: #323232;
+ 	color: #fff;
+ }
+ .btn.btn-black:hover {
+ 	background-color: #000;
+ }
+ .btn.btn-xs {
+ 	padding: 7px 15px;
+ 	font-size: 11px;
+ }
+```
+Более подробное ознакомление в файле **guide.html**
+***
+**Адаптив**
+В проекте использован адаптив по средстам медиа запросов (@media) для следующих разрешений 
+
+@media (max-width: 1200px) {} - Нетбуки и новые Ipad PRO єкран которых от 10' до 12'
+
+@media (max-width: 991px) {} - Планшеты 10'
+
+@media (max-width: 767px) {} - Планшеты 7' и Фаблеты
+
+@media (max-width: 576px) {} - Смартфоны со средним и маленим экраном
+
+@media (max-width: 479px) {} - Смартфоны с экраном меньше 5' и айфон 4
