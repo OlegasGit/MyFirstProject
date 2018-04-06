@@ -8,14 +8,14 @@
 -----------------------------|----------------------
 www/                         | 
 css/                         | 
-							 |
+			     |
 et-line.css                  | Стили иконочного шрифта Et-Line <https://www.npmjs.com/package/et-line>
 font-awesome.min.css         | Стили иконочного шрифта Font Awesome <https://fontawesome.com/>
 grid.css                     | Стили оформления применяемые на классы .form и .col
 lightbox.min.css             | Стили модальной галереии изображений - Lightbox <http://lokeshdhakar.com/projects/lightbox2/>
 slicknav.css                 | Стили мобильной менюшки - Slicknav <http://slicknav.io/>
 style.css                    | Стили применяемые в данном проекте, также содержет элементы стилей guide.html 
-							 |
+                             |
 fonts/                       |
 et-line.eot                  | =>
 et-line.svg                  | =>
@@ -26,19 +26,19 @@ fontawesome-webfont.eot      | =>
 fontawesome-webfont.svg      | =>
 fontawesome-webfont.ttf      | =>
 fontawesome-webfont.woff     | Файлы шрифтов Font Awesome, подключенных к проекту
-							 |
+			     |
 img/                         |
 *.jpg                        | Изображения данного формата применяемые в проекте
 *.png                        | Логотипы и изображания данного формата применяемые в проекте
-							 |
+			     |
 js/                          |
 google-maps.js               | Файл кастомизации подключенных Google maps
 header-scroll.js             | Файл настроек скрипта header scroll (прокрутка хедера страницы вслед за окном браузера)
 init.js                      | Файл инициализации, доп. настроек, скриптов данного проекта
 jquery.slicknav.min.js       | Файл настроек плагина Slicknav (минифицированная версия)
 lightbox.min.js              | Файл настроек плагина Lightbox (минифицированная версия)
-scroll-to.js				 | Файл настроек скрипта Scroll to 
-							 |
+scroll-to.js		     | Файл настроек скрипта Scroll to 
+			     |
 guide.html                   | Гайд по проекту с примерами (разметкой) стандартных элементов
 index.html                   | Разметка проекта
 README.md                    | Вы его читаете
@@ -49,8 +49,8 @@ README.md                    | Вы его читаете
 Пример подключения проекте:
 ``` html 
 <head> 
-	<!-- Google Fonts --> 
-	<link href="https://fonts.googleapis.com/css?family=Dosis:300,400|Open+Sans:300,400" rel="stylesheet">
+     <!-- Google Fonts --> 
+     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400|Open+Sans:300,400" rel="stylesheet">
 </head> 
 ```
 2. Lightbox - плагин для работы с галереей, добовляет визуальные стили для просмотра изображений 
@@ -63,11 +63,11 @@ README.md                    | Вы его читаете
 ``` html
 <head> 
     <!-- Lightbox -->
-	<link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
 </head>
 <body>
     <!-- Lightbox -->
-	<script src="js/lightbox.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
 </body>
 ```
 3. Slick - плагин для построения карусели с нужным контентом
@@ -80,11 +80,11 @@ README.md                    | Вы его читаете
 ``` html
 <head> 
     <!-- Slick styles -->
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 </head>
 <body>
-	<!-- Plagins -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Plagins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 </body>
 ```
 4. Slick nav - мобильное меню (бургер). Служит навигацией по сайту в мобильной версии.
@@ -96,11 +96,11 @@ README.md                    | Вы его читаете
 ``` html
 <head> 
     <!-- Slick nav -->
-	<link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/slicknav.css">
 </head>
 <body>
     <!-- Slick nav -->
-	<script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
 </body>
 ```
 5. Et-line and Font awesome - иконочные шрифты. Используются в проекте в виде иконок для соц-сетей, а также навигационных иконок по сайту.
@@ -116,11 +116,11 @@ Et-Line <https://www.npmjs.com/package/et-line>
 Пример подключения в проекте:
 ``` html
 <head> 
-   <!-- Et-line icons -->
-	<link rel="stylesheet" href="css/et-line.css">
+    <!-- Et-line icons -->
+    <link rel="stylesheet" href="css/et-line.css">
 
-	<!-- Font awesome -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 ```
 6. Header on scroll - скрипт для .header позволяющий плавно выводить .header после прокрутки "приветственного экрана (inner)" с изминениями в визуальном стиле.
@@ -130,16 +130,16 @@ Et-Line <https://www.npmjs.com/package/et-line>
 Пример подключения в проекте:
 ``` html
 <body> 
-   <!-- Header on scroll -->
-	<script src="js/header-scroll.js"></script>
+    <!-- Header on scroll -->
+    <script src="js/header-scroll.js"></script>
 </body>
 ```
 7. Scroll to - скрипт для плавного перемещения по сайту (smooth scroll) с приминением якорей, в проекте используется для меню сайта. Как в desktop режиме, так и в мобильной. Также для .arrow-up для быстрого возврата к шапке. Обязательным является применение атрибута data-scroll с указанием класса элемента к торому нужно будет перейти
 ``` html
 <ul class="header-nav text-uppercase">
 	<li><a href="#" data-scroll='.inner'>Home</a></li>
-    <li><a href="#" data-scroll='.about-studio'>About</a></li>
-    <li><a href="#" data-scroll='.services'>Services</a></li>
+        <li><a href="#" data-scroll='.about-studio'>About</a></li>
+        <li><a href="#" data-scroll='.services'>Services</a></li>
 	<li><a href="#" data-scroll='.portfolio'>Works</a></li>
 	<li><a href="#" data-scroll='.contacts'>Contact</a></li>
 </ul>
