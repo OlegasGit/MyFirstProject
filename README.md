@@ -38,6 +38,7 @@ scroll-to.js                 | Файл настроек скрипта Scroll t
 guide.html                   | Гайд по проекту с примерами (разметкой) стандартных элементов
 index.html                   | Разметка проекта
 README.md                    | Вы его читаете
+
 **Подключенные билиотеки и их описание**
 1. Google Fonts - шрифты применяемые в проекте взятые из библиотеки Google <https://fonts.google.com/> 
 
@@ -58,11 +59,11 @@ README.md                    | Вы его читаете
 ``` html
 <head> 
     <!-- Lightbox -->
-	<link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
 </head>
 <body>
     <!-- Lightbox -->
-	<script src="js/lightbox.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
 </body>
 ```
 3. Slick - плагин для построения карусели с нужным контентом
@@ -75,11 +76,11 @@ README.md                    | Вы его читаете
 ``` html
 <head> 
     <!-- Slick styles -->
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 </head>
 <body>
-	<!-- Plagins -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Plagins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 </body>
 ```
 4. Slick nav - мобильное меню (бургер). Служит навигацией по сайту в мобильной версии.
@@ -91,11 +92,11 @@ README.md                    | Вы его читаете
 ``` html
 <head> 
     <!-- Slick nav -->
-	<link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/slicknav.css">
 </head>
 <body>
     <!-- Slick nav -->
-	<script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
 </body>
 ```
 5. Et-line and Font awesome - иконочные шрифты. Используются в проекте в виде иконок для соц-сетей, а также навигационных иконок по сайту.
@@ -112,10 +113,10 @@ Et-Line <https://www.npmjs.com/package/et-line>
 ``` html
 <head> 
    <!-- Et-line icons -->
-	<link rel="stylesheet" href="css/et-line.css">
+   <link rel="stylesheet" href="css/et-line.css">
 
-	<!-- Font awesome -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- Font awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 ```
 6. Header on scroll - скрипт для .header позволяющий плавно выводить .header после прокрутки "приветственного экрана (inner)" с изминениями в визуальном стиле.
@@ -126,17 +127,17 @@ Et-Line <https://www.npmjs.com/package/et-line>
 ``` html
 <body> 
    <!-- Header on scroll -->
-	<script src="js/header-scroll.js"></script>
+   <script src="js/header-scroll.js"></script>
 </body>
 ```
 7. Scroll to - скрипт для плавного перемещения по сайту (smooth scroll) с приминением якорей, в проекте используется для меню сайта. Как в desktop режиме, так и в мобильной. Также для .arrow-up для быстрого возврата к шапке. Обязательным является применение атрибута data-scroll с указанием класса элемента к торому нужно будет перейти
 ``` html
-<ul class="header-nav text-uppercase">
-	<li><a href="#" data-scroll='.inner'>Home</a></li>
+<ul class="header-nav">
+    <li><a href="#" data-scroll='.inner'>Home</a></li>
     <li><a href="#" data-scroll='.about-studio'>About</a></li>
     <li><a href="#" data-scroll='.services'>Services</a></li>
-	<li><a href="#" data-scroll='.portfolio'>Works</a></li>
-	<li><a href="#" data-scroll='.contacts'>Contact</a></li>
+    <li><a href="#" data-scroll='.portfolio'>Works</a></li>
+    <li><a href="#" data-scroll='.contacts'>Contact</a></li>
 </ul>
 ```
 Пример подключения в проекте:
@@ -175,4 +176,94 @@ Et-Line <https://www.npmjs.com/package/et-line>
    <!-- Grid style -->
    <link rel="stylesheet" href="css/grid.css">
 </head>
+```
+9. jQuery и jQuery ui: 
+
+JQuery - библиотека JavaScript, фокусирующаяся на взаимодействии JavaScript и HTML.
+
+Для ознакомления:
+<https://jquery.com/>
+
+jQuery ui - настройка пользовательского интерфейса в веб-приложениях, часть проекта jQuery. Построена поверх главной библиотеки jQuery и предоставляет разработчику упрощенный доступ к её функциям взаимодействия, анимации и эффектов, а также набор виджетов. Простыми словами - это готовые плагины для jQuery при помощи которых облегчаются поставленные задачи перед разработчиком.
+
+Для ознакомления:
+<https://jqueryui.com/>
+
+В данном проекте применено для создания "карусели" - Slick.
+
+Примененте в разметке:
+``` html
+<div class="reviews-carousel">
+					<div>
+						<div class="slide-content text-center">
+							<span class="icon icon-quote"></span>
+							<div class="title section-title-light title-white">
+								<span>What people say?</span>
+							</div>
+							<!-- / title -->
+							<p>Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,
+								risus utaliquam dapibus. Thanks!</p>
+							<span class="reviews-author">— John Doe, doodle inc.</span>
+						</div>
+						<!-- / slide-content -->
+					</div>
+					<!-- / slide -->
+					<div>
+						<div class="slide-content text-center">
+							<span class="icon icon-quote"></span>
+							<div class="title section-title-light title-white">
+								<span>What people say?</span>
+							</div>
+							<!-- / title -->
+							<p>Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,
+								risus utaliquam dapibus. Thanks!</p>
+							<span class="reviews-author">— John Doe, doodle inc.</span>
+						</div>
+						<!-- / slide-content -->
+					</div>
+					<!-- / slide -->
+					
+				</div>
+				<!-- / reviews-carousel -->
+```
+Пример подключения в проекте:
+``` html
+<body> 
+   <!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<!-- jQuery ui -->
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+```
+10. Google map api - картографический сервис Goole. Создание и подключение карт для страницы проекта.
+
+Для ознакомления:
+<https://developers.google.com/maps/?hl=ru>
+
+Примененте в разметке:
+``` html
+	<div class="map-container">
+	        <div id="map"></div>
+		<div class="on-map-block text-center">
+		        <div class="rhomb-title-wrapper">
+		                <div class="rhomb-icon white-icon">
+			        <i class="fa fa-map-marker"></i>
+		                </div>
+		        <span class="title title-white">Open the map<i class="fa fa-chevron-down"></i></span>
+	                </div>
+	                <!-- / rhomb-title-wrapper -->
+	        </div>
+	        <!-- / on-map-block -->
+	</div>
+	<!-- / map -->
+```
+
+Пример подключения в проекте:
+``` html
+<body> 
+   <!-- Google map api -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzinoGqN_l50-osFUy2pdPlOMRf2MuaO4&callback=initMap" async defer></script>
+		<!-- Init google map -->
+		<script src="js/google-maps.js"></script>
+</body>
 ```
